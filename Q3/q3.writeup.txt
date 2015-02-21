@@ -1,0 +1,15 @@
+value of theta is as follows
+
+theta0 = 0.3277
+theta1 = 0.1753
+
+locally weighted linear regression is implemented for 4 values of tau = [0.1 0.3 2 10]
+
+tau = 0.8 works the best
+ 
+when tau is too smaller the algorithm tries to fit very closely which can lead to overfitting
+when tau is too large the algorithm does not try very hard to fit which can lead to underfitting.
+
+theta = inverse(transpose(X)*W*X)*trnspose(X)*W*Y
+
+where W is the weight matrix

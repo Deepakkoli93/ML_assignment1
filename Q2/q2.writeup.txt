@@ -1,0 +1,14 @@
+Thetas are as follows
+
+theta0 = -2.6205
+theta1 = 0.7604
+theta2 = 1.1719
+
+formula for hessian = sum over 1 to m(-x(i,j)*x(i,k)*(g)*(1-g))
+
+where x(i,j) -> jth feature of ith example
+and g is the sigmoid of theta transpose X
+
+gradient = 	x(i)*(y(1-g) + g(1-y))
+
+the boundary is plotted by equation theta transpose * x = 0

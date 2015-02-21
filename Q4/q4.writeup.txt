@@ -1,0 +1,52 @@
+Alaska = 0 negative example
+Canada = 1 positive example
+
+
+----------a------------
+mu0 = 
+98.3800
+429.6600
+
+
+m1 = 
+137.4600
+366.6200
+
+sigma = 
+287.5   -26.7
+-26.7   1123.3
+
+-----------d-----------
+mu0 = 
+98.3800
+429.6600
+
+
+m1 = 
+137.4600
+366.6200
+
+
+sigma0 = 
+255.4    -184.3
+-184.3    1371.1
+
+
+sigma1=
+319.5684    130.8348
+130.8348    875.3956
+
+
+
+By using difference covariance matrices a quadratic classifier is learnt. It is observed
+that this classifier does a better job than the linear classifier but not by much.
+The quadratic classifier improves two points but also misclassifies one point that the linear
+classfifier classified correctly.
+
+
+
+
+
+
+
+
